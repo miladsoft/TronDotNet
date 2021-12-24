@@ -1,0 +1,24 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+
+    var address = ViewData["address"];
+    var privatekey = ViewData["privatekey"];
+    var publickey = ViewData["publickey"];
+    var balance = ViewData["Balance"];
+
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Tron DotNetCore</h1>
+    <hr>
+    <p> address : </p>
+    <p class="text-danger">@address</p>
+    <p> privatekey : </p>
+    <p class="text-danger">@privatekey</p>
+    <p> publickey : </p>
+    <p class="text-danger">@publickey</p>
+    <hr>
+    <p>USDT TRC-20 balance : </p>
+    <p class="text-success">@balance</p>
+
+</div>

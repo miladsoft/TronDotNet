@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Authors>Miladsoft</Authors>
+    <Version>0.5.0</Version>
+    <PackageProjectUrl>https://github.com/miladsoft/TronDotNetCore</PackageProjectUrl>
+    <PackageTags>tron, tron protocol, tron grpc</PackageTags>
+    <Company>SeniorBlockchain</Company>
+    <Description>TronDotNetCore is a SDK that includes libraries for working with TRON.
+TronDotNetCore makes it easy to build TRON applications with .net.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/miladsoft/TronDotNetCore</RepositoryUrl>
+    <PackageReleaseNotes>Release notes are at https://github.com/miladsoft/TronDotNetCore/releases</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TronDotNetCore.ABI\TronDotNetCore.ABI.csproj" />
+    <ProjectReference Include="..\TronDotNetCore.Crypto\TronDotNetCore.Crypto.csproj" />
+    <ProjectReference Include="..\TronDotNetCore.Protocol\TronDotNetCore.Protocol.csproj" />
+  </ItemGroup>
+
+</Project>

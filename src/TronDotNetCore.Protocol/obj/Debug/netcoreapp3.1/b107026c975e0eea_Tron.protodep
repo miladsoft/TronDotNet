@@ -1,0 +1,3 @@
+obj\Debug\netcoreapp3.1\Protos\core/Tron.cs: C:/Users/Milad/.nuget/packages/grpc.tools/2.32.0/build/native/include/google/protobuf/any.proto\
+ Protos/core/Discover.proto\
+ Protos/core/Tron.proto

@@ -1,0 +1,10 @@
+C:\Users\Milad\Desktop\TronNetCore3.1-master\src\TronNet.Protocol\bin\Debug\netcoreapp3.1\TronNet.Protocol.deps.json
+C:\Users\Milad\Desktop\TronNetCore3.1-master\src\TronNet.Protocol\bin\Debug\netcoreapp3.1\TronNet.Protocol.dll
+C:\Users\Milad\Desktop\TronNetCore3.1-master\src\TronNet.Protocol\bin\Debug\netcoreapp3.1\TronNet.Protocol.pdb
+C:\Users\Milad\Desktop\TronNetCore3.1-master\src\TronNet.Protocol\obj\Debug\netcoreapp3.1\TronNet.Protocol.csproj.AssemblyReference.cache
+C:\Users\Milad\Desktop\TronNetCore3.1-master\src\TronNet.Protocol\obj\Debug\netcoreapp3.1\TronNet.Protocol.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Milad\Desktop\TronNetCore3.1-master\src\TronNet.Protocol\obj\Debug\netcoreapp3.1\TronNet.Protocol.AssemblyInfoInputs.cache
+C:\Users\Milad\Desktop\TronNetCore3.1-master\src\TronNet.Protocol\obj\Debug\netcoreapp3.1\TronNet.Protocol.AssemblyInfo.cs
+C:\Users\Milad\Desktop\TronNetCore3.1-master\src\TronNet.Protocol\obj\Debug\netcoreapp3.1\TronNet.Protocol.csproj.CoreCompileInputs.cache
+C:\Users\Milad\Desktop\TronNetCore3.1-master\src\TronNet.Protocol\obj\Debug\netcoreapp3.1\TronNet.Protocol.dll
+C:\Users\Milad\Desktop\TronNetCore3.1-master\src\TronNet.Protocol\obj\Debug\netcoreapp3.1\TronNet.Protocol.pdb
