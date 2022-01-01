@@ -2,7 +2,7 @@
 
 Fork from https://github.com/stoway/TronNet
 
-Rebuild to .netcore 5
+Rebuild to .netcore 6
 
 Code Sample:
 
@@ -50,7 +50,7 @@ Code Sample:
                 x.SolidityChannel = new GrpcChannelOption { Host = "47.252.19.181", Port = 50052 };
                 // x.ApiKey = "07rgc8e4-7as1-4d34-d334-fe40ai6gc542";
                 //I thought it was necessary to fill in, but it seems that it can be used without filling in
-                x.ApiKey = "apikey";
+                x.ApiKey = "apikey";  //https://www.trongrid.io/
             });
 
             services.AddLogging();
@@ -96,9 +96,9 @@ Code Sample:
             services.AddTronDotNetCore(x =>
             {
                 x.Network = TronNetwork.MainNet;
-                x.Channel = new GrpcChannelOption { Host = "47.252.19.181", Port = 50051 };
-                x.SolidityChannel = new GrpcChannelOption { Host = "47.252.19.181", Port = 50052 };
-                x.ApiKey = "apikey";
+                x.Channel = new GrpcChannelOption { Host = "3.225.171.164", Port = 50051 }; //https://developers.tron.network/docs/official-public-node
+                x.SolidityChannel = new GrpcChannelOption { Host = "3.225.171.164", Port = 50062 }; //https://developers.tron.network/docs/official-public-node
+                x.ApiKey = "apikey"; // //https://www.trongrid.io/
             });
 
 
@@ -110,7 +110,7 @@ Code Sample:
             var account = walletClient.GetAccount(walletPrivateKey);
 
             //USDT TOKEN
-            var contractAddress = "TXLAQ63Xg1NAzckPwKHvzw7CSEmLMEqcdj";
+            var contractAddress = "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t";
 
             //Wallet
             var to = "TH8fU6BLpU6EjqvZTWWSB1uhpEVxzT35Xj";

@@ -44,16 +44,13 @@ namespace WebApplication_Host.Controllers
             #region If you want to get the balance of trc-20 tokens, write your code below
             var account = _wallet.GetAccount(privatekey);
             //USDT TOKEN
-            var contractAddress = "TXLAQ63Xg1NAzckPwKHvzw7CSEmLMEqcdj";
+            var contractAddress = "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t";
             var contractClient = _contract.CreateClient(ContractProtocol.TRC20);
             //USDT Balance
             var balance = contractClient.BalanceOfAsync(contractAddress, account).Result;
 
             ViewData["balance"] = balance;
             #endregion
-
-
-
 
 
             return View();
