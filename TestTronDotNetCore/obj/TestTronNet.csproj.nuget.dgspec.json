@@ -1,0 +1,397 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\TestTronNet\\TestTronNet.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\src\\TronNet.ABI\\TronDotNetCore.ABI.csproj": {
+      "version": "0.2.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\src\\TronNet.ABI\\TronDotNetCore.ABI.csproj",
+        "projectName": "TronDotNetCore.ABI",
+        "projectPath": "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\src\\TronNet.ABI\\TronDotNetCore.ABI.csproj",
+        "packagesPath": "C:\\Users\\Milad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\src\\TronNet.ABI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Milad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\src\\TronNet.Crypto\\TronDotNetCore.Crypto.csproj": {
+                "projectPath": "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\src\\TronNet.Crypto\\TronDotNetCore.Crypto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\src\\TronNet.Crypto\\TronDotNetCore.Crypto.csproj": {
+      "version": "0.2.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\src\\TronNet.Crypto\\TronDotNetCore.Crypto.csproj",
+        "projectName": "TronDotNetCore.Crypto",
+        "projectPath": "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\src\\TronNet.Crypto\\TronDotNetCore.Crypto.csproj",
+        "packagesPath": "C:\\Users\\Milad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\src\\TronNet.Crypto\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Milad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Google.Api.CommonProtos": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            },
+            "Google.Protobuf.Tools": {
+              "target": "Package",
+              "version": "[3.11.2, )"
+            },
+            "NBitcoin.Secp256k1": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "Portable.BouncyCastle": {
+              "target": "Package",
+              "version": "[1.8.5.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\src\\TronNet.Protocol\\TronDotNetCore.Protocol.csproj": {
+      "version": "0.2.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\src\\TronNet.Protocol\\TronDotNetCore.Protocol.csproj",
+        "projectName": "TronDotNetCore.Protocol",
+        "projectPath": "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\src\\TronNet.Protocol\\TronDotNetCore.Protocol.csproj",
+        "packagesPath": "C:\\Users\\Milad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\src\\TronNet.Protocol\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Milad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Google.Api.CommonProtos": {
+              "target": "Package",
+              "version": "[1.7.0, )"
+            },
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            },
+            "Google.Protobuf.Tools": {
+              "target": "Package",
+              "version": "[3.11.2, )"
+            },
+            "Grpc": {
+              "target": "Package",
+              "version": "[2.26.0, )"
+            },
+            "Grpc.Net.ClientFactory": {
+              "target": "Package",
+              "version": "[2.32.0, )"
+            },
+            "Grpc.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.32.0, )"
+            },
+            "NBitcoin.Secp256k1": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\src\\TronNet\\TronDotNetCore.csproj": {
+      "version": "0.2.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\src\\TronNet\\TronDotNetCore.csproj",
+        "projectName": "TronDotNetCore",
+        "projectPath": "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\src\\TronNet\\TronDotNetCore.csproj",
+        "packagesPath": "C:\\Users\\Milad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\src\\TronNet\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Milad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\src\\TronNet.ABI\\TronDotNetCore.ABI.csproj": {
+                "projectPath": "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\src\\TronNet.ABI\\TronDotNetCore.ABI.csproj"
+              },
+              "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\src\\TronNet.Protocol\\TronDotNetCore.Protocol.csproj": {
+                "projectPath": "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\src\\TronNet.Protocol\\TronDotNetCore.Protocol.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\TestTronNet\\TestTronNet.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\TestTronNet\\TestTronNet.csproj",
+        "projectName": "TestTronNet",
+        "projectPath": "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\TestTronNet\\TestTronNet.csproj",
+        "packagesPath": "C:\\Users\\Milad\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\TestTronNet\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Milad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\src\\TronNet.ABI\\TronDotNetCore.ABI.csproj": {
+                "projectPath": "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\src\\TronNet.ABI\\TronDotNetCore.ABI.csproj"
+              },
+              "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\src\\TronNet.Crypto\\TronDotNetCore.Crypto.csproj": {
+                "projectPath": "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\src\\TronNet.Crypto\\TronDotNetCore.Crypto.csproj"
+              },
+              "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\src\\TronNet.Protocol\\TronDotNetCore.Protocol.csproj": {
+                "projectPath": "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\src\\TronNet.Protocol\\TronDotNetCore.Protocol.csproj"
+              },
+              "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\src\\TronNet\\TronDotNetCore.csproj": {
+                "projectPath": "C:\\Users\\Milad\\Desktop\\TronNetCore3.1-master\\src\\TronNet\\TronDotNetCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

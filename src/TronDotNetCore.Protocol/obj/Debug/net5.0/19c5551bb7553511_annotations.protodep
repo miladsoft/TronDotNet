@@ -1,0 +1,3 @@
+obj\Debug\net5.0\Protos\google\api/Annotations.cs: Protos/google/api/http.proto\
+ Protos/google/protobuf/descriptor.proto\
+ Protos/google/api/annotations.proto

@@ -1,0 +1,5 @@
+obj\Debug\net5.0\Protos\api/Zksnark.cs \
+obj\Debug\net5.0\Protos\api/ZksnarkGrpc.cs: C:/Users/Milad/.nuget/packages/grpc.tools/2.32.0/build/native/include/google/protobuf/any.proto\
+ Protos/core/Discover.proto\
+ Protos/core/Tron.proto\
+ Protos/api/zksnark.proto
