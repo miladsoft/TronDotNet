@@ -46,8 +46,8 @@ Code Sample:
             services.AddTronDotNetCore(x =>
             {
                 x.Network = TronNetwork.MainNet;
-                x.Channel = new GrpcChannelOption { Host = "47.252.19.181", Port = 50051 };
-                x.SolidityChannel = new GrpcChannelOption { Host = "47.252.19.181", Port = 50052 };
+                x.Channel = new GrpcChannelOption { Host = "3.225.171.164", Port = 50051 }; //https://developers.tron.network/docs/official-public-node
+                x.SolidityChannel = new GrpcChannelOption { Host = "3.225.171.164", Port = 50062 }; //https://developers.tron.network/docs/official-public-node
                 // x.ApiKey = "07rgc8e4-7as1-4d34-d334-fe40ai6gc542";
                 //I thought it was necessary to fill in, but it seems that it can be used without filling in
                 x.ApiKey = "apikey";  //https://www.trongrid.io/
