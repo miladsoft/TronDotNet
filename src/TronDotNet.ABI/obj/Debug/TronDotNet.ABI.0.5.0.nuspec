@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>TronDotNet.ABI</id>
+    <version>0.5.0</version>
+    <authors>Miladsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/miladsoft/TronDotNet</projectUrl>
+    <description>TronDotNet.ABI</description>
+    <tags>tron, tron protocol, tron grpc</tags>
+    <repository url="https://github.com/miladsoft/TronDotNet" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="TronDotNet.Crypto" version="0.5.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Github\TronDotNet\src\TronDotNet.ABI\bin\Debug\net6.0\TronDotNet.ABI.dll" target="lib\net6.0\TronDotNet.ABI.dll" />
+  </files>
+</package>

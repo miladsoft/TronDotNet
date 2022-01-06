@@ -1,0 +1,11 @@
+D:\Github\TronDotNet\src\TronDotNet.Crypto\bin\Debug\net6.0\TronDotNet.Crypto.deps.json
+D:\Github\TronDotNet\src\TronDotNet.Crypto\bin\Debug\net6.0\TronDotNet.Crypto.dll
+D:\Github\TronDotNet\src\TronDotNet.Crypto\bin\Debug\net6.0\ref\TronDotNet.Crypto.dll
+D:\Github\TronDotNet\src\TronDotNet.Crypto\bin\Debug\net6.0\TronDotNet.Crypto.pdb
+D:\Github\TronDotNet\src\TronDotNet.Crypto\obj\Debug\net6.0\TronDotNet.Crypto.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\TronDotNet\src\TronDotNet.Crypto\obj\Debug\net6.0\TronDotNet.Crypto.AssemblyInfoInputs.cache
+D:\Github\TronDotNet\src\TronDotNet.Crypto\obj\Debug\net6.0\TronDotNet.Crypto.AssemblyInfo.cs
+D:\Github\TronDotNet\src\TronDotNet.Crypto\obj\Debug\net6.0\TronDotNet.Crypto.csproj.CoreCompileInputs.cache
+D:\Github\TronDotNet\src\TronDotNet.Crypto\obj\Debug\net6.0\TronDotNet.Crypto.dll
+D:\Github\TronDotNet\src\TronDotNet.Crypto\obj\Debug\net6.0\ref\TronDotNet.Crypto.dll
+D:\Github\TronDotNet\src\TronDotNet.Crypto\obj\Debug\net6.0\TronDotNet.Crypto.pdb

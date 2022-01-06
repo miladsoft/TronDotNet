@@ -1,0 +1,2 @@
+obj\Debug\net6.0\Protos\core\contract/BalanceContract.cs: Protos/core/contract/common.proto\
+ Protos/core/contract/balance_contract.proto

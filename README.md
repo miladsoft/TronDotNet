@@ -1,8 +1,4 @@
-# TestTronDotNetCore5
-
-Fork from https://github.com/stoway/TronNet
-
-Rebuild to .netcore 5
+# TestTronDotNet5
 
 Code Sample:
 
@@ -43,7 +39,7 @@ Code Sample:
             var amount = 2 * 1_000_000L;
 
             IServiceCollection services = new ServiceCollection();
-            services.AddTronDotNetCore(x =>
+            services.AddTronDotNet(x =>
             {
                 x.Network = TronNetwork.MainNet;
                 x.Channel = new GrpcChannelOption { Host = "3.225.171.164", Port = 50051 }; //https://developers.tron.network/docs/official-public-node
@@ -93,7 +89,7 @@ Code Sample:
             var walletPrivateKey = "62075119d64f17ebd3248df7a864cd84380fcb9e5771f0968af2167a25717bb2";
 
             IServiceCollection services = new ServiceCollection();
-            services.AddTronDotNetCore(x =>
+            services.AddTronDotNet(x =>
             {
                 x.Network = TronNetwork.MainNet;
                 x.Channel = new GrpcChannelOption { Host = "3.225.171.164", Port = 50051 }; //https://developers.tron.network/docs/official-public-node

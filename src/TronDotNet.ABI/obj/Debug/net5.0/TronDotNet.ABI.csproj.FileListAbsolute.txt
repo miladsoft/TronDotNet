@@ -1,0 +1,15 @@
+D:\Github\TronNetCore5\src\TronDotNet.ABI\bin\Debug\net5.0\TronDotNet.ABI.deps.json
+D:\Github\TronNetCore5\src\TronDotNet.ABI\bin\Debug\net5.0\TronDotNet.ABI.dll
+D:\Github\TronNetCore5\src\TronDotNet.ABI\bin\Debug\net5.0\ref\TronDotNet.ABI.dll
+D:\Github\TronNetCore5\src\TronDotNet.ABI\bin\Debug\net5.0\TronDotNet.ABI.pdb
+D:\Github\TronNetCore5\src\TronDotNet.ABI\bin\Debug\net5.0\TronDotNet.Crypto.dll
+D:\Github\TronNetCore5\src\TronDotNet.ABI\bin\Debug\net5.0\TronDotNet.Crypto.pdb
+D:\Github\TronNetCore5\src\TronDotNet.ABI\obj\Debug\net5.0\TronDotNet.ABI.csproj.AssemblyReference.cache
+D:\Github\TronNetCore5\src\TronDotNet.ABI\obj\Debug\net5.0\TronDotNet.ABI.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\TronNetCore5\src\TronDotNet.ABI\obj\Debug\net5.0\TronDotNet.ABI.AssemblyInfoInputs.cache
+D:\Github\TronNetCore5\src\TronDotNet.ABI\obj\Debug\net5.0\TronDotNet.ABI.AssemblyInfo.cs
+D:\Github\TronNetCore5\src\TronDotNet.ABI\obj\Debug\net5.0\TronDotNet.ABI.csproj.CoreCompileInputs.cache
+D:\Github\TronNetCore5\src\TronDotNet.ABI\obj\Debug\net5.0\TronDotNet.ABI.csproj.CopyComplete
+D:\Github\TronNetCore5\src\TronDotNet.ABI\obj\Debug\net5.0\TronDotNet.ABI.dll
+D:\Github\TronNetCore5\src\TronDotNet.ABI\obj\Debug\net5.0\ref\TronDotNet.ABI.dll
+D:\Github\TronNetCore5\src\TronDotNet.ABI\obj\Debug\net5.0\TronDotNet.ABI.pdb

@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Authors>Miladsoft</Authors>
+    <Version>0.5.0</Version>
+    <Company>SeniorBlockchain</Company>
+    <Description>TronDotNet.ABI</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/miladsoft/TronDotNet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/miladsoft/TronDotNet</RepositoryUrl>
+    <PackageTags>tron, tron protocol, tron grpc</PackageTags>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TronDotNet.Crypto\TronDotNet.Crypto.csproj" />
+  </ItemGroup>
+
+</Project>

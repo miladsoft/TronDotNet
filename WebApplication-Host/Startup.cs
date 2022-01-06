@@ -8,7 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using TronDotNetCore;
+using TronDotNet;
 
 namespace WebApplication_Host
 {
@@ -26,7 +26,7 @@ namespace WebApplication_Host
         {
             services.AddControllersWithViews();
 
-            services.AddTronDotNetCore(x =>
+            services.AddTronDotNet(x =>
             {
                 x.Network = TronNetwork.MainNet;
                 x.Channel = new GrpcChannelOption { Host = "3.225.171.164", Port = 50051 }; //https://developers.tron.network/docs/official-public-node

@@ -34,7 +34,7 @@
       "WebApplication-Host/1.0.0": {
         "dependencies": {
           "RestSharp": "106.15.0",
-          "TronDotNetCore": "0.5.0",
+          "TronDotNet": "0.5.0",
           "Microsoft.AspNetCore.Antiforgery": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions": "5.0.0.0",
           "Microsoft.AspNetCore.Authentication.Cookies": "5.0.0.0",
@@ -547,31 +547,31 @@
       "System.Diagnostics.DiagnosticSource/4.5.1": {},
       "System.Memory/4.5.3": {},
       "System.Runtime.CompilerServices.Unsafe/4.5.2": {},
-      "TronDotNetCore/0.5.0": {
+      "TronDotNet/0.5.0": {
         "dependencies": {
-          "TronDotNetCore.ABI": "0.5.0",
-          "TronDotNetCore.Crypto": "0.5.0",
-          "TronDotNetCore.Protocol": "0.5.0"
+          "TronDotNet.ABI": "0.5.0",
+          "TronDotNet.Crypto": "0.5.0",
+          "TronDotNet.Protocol": "0.5.0"
         },
         "runtime": {
-          "TronDotNetCore.dll": {}
+          "TronDotNet.dll": {}
         },
         "compile": {
-          "TronDotNetCore.dll": {}
+          "TronDotNet.dll": {}
         }
       },
-      "TronDotNetCore.ABI/0.5.0": {
+      "TronDotNet.ABI/0.5.0": {
         "dependencies": {
-          "TronDotNetCore.Crypto": "0.5.0"
+          "TronDotNet.Crypto": "0.5.0"
         },
         "runtime": {
-          "TronDotNetCore.ABI.dll": {}
+          "TronDotNet.ABI.dll": {}
         },
         "compile": {
-          "TronDotNetCore.ABI.dll": {}
+          "TronDotNet.ABI.dll": {}
         }
       },
-      "TronDotNetCore.Crypto/0.5.0": {
+      "TronDotNet.Crypto/0.5.0": {
         "dependencies": {
           "Google.Api.CommonProtos": "1.7.0",
           "Google.Protobuf": "3.13.0",
@@ -580,13 +580,13 @@
           "Portable.BouncyCastle": "1.8.5.2"
         },
         "runtime": {
-          "TronDotNetCore.Crypto.dll": {}
+          "TronDotNet.Crypto.dll": {}
         },
         "compile": {
-          "TronDotNetCore.Crypto.dll": {}
+          "TronDotNet.Crypto.dll": {}
         }
       },
-      "TronDotNetCore.Protocol/0.5.0": {
+      "TronDotNet.Protocol/0.5.0": {
         "dependencies": {
           "Google.Api.CommonProtos": "1.7.0",
           "Google.Protobuf": "3.13.0",
@@ -596,10 +596,10 @@
           "NBitcoin.Secp256k1": "1.0.3"
         },
         "runtime": {
-          "TronDotNetCore.Protocol.dll": {}
+          "TronDotNet.Protocol.dll": {}
         },
         "compile": {
-          "TronDotNetCore.Protocol.dll": {}
+          "TronDotNet.Protocol.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/5.0.0.0": {
@@ -2483,22 +2483,22 @@
       "path": "system.runtime.compilerservices.unsafe/4.5.2",
       "hashPath": "system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
     },
-    "TronDotNetCore/0.5.0": {
+    "TronDotNet/0.5.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "TronDotNetCore.ABI/0.5.0": {
+    "TronDotNet.ABI/0.5.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "TronDotNetCore.Crypto/0.5.0": {
+    "TronDotNet.Crypto/0.5.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "TronDotNetCore.Protocol/0.5.0": {
+    "TronDotNet.Protocol/0.5.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

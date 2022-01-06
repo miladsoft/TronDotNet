@@ -1,0 +1,11 @@
+D:\Github\TronDotNet\src\TronDotNet.Protocol\bin\Debug\net6.0\TronDotNet.Protocol.deps.json
+D:\Github\TronDotNet\src\TronDotNet.Protocol\bin\Debug\net6.0\TronDotNet.Protocol.dll
+D:\Github\TronDotNet\src\TronDotNet.Protocol\bin\Debug\net6.0\ref\TronDotNet.Protocol.dll
+D:\Github\TronDotNet\src\TronDotNet.Protocol\bin\Debug\net6.0\TronDotNet.Protocol.pdb
+D:\Github\TronDotNet\src\TronDotNet.Protocol\obj\Debug\net6.0\TronDotNet.Protocol.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\TronDotNet\src\TronDotNet.Protocol\obj\Debug\net6.0\TronDotNet.Protocol.AssemblyInfoInputs.cache
+D:\Github\TronDotNet\src\TronDotNet.Protocol\obj\Debug\net6.0\TronDotNet.Protocol.AssemblyInfo.cs
+D:\Github\TronDotNet\src\TronDotNet.Protocol\obj\Debug\net6.0\TronDotNet.Protocol.csproj.CoreCompileInputs.cache
+D:\Github\TronDotNet\src\TronDotNet.Protocol\obj\Debug\net6.0\TronDotNet.Protocol.dll
+D:\Github\TronDotNet\src\TronDotNet.Protocol\obj\Debug\net6.0\ref\TronDotNet.Protocol.dll
+D:\Github\TronDotNet\src\TronDotNet.Protocol\obj\Debug\net6.0\TronDotNet.Protocol.pdb

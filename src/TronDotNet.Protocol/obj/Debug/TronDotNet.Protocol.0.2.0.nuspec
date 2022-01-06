@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>TronDotNet.Protocol</id>
+    <version>0.2.0</version>
+    <authors>stoway</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/stoway/TronNet</projectUrl>
+    <description>TronNet.Protocol</description>
+    <releaseNotes>Release notes are at https://github.com/stoway/TronNet/releases</releaseNotes>
+    <tags>tron, tron protocol, tron grpc</tags>
+    <repository url="https://github.com/stoway/TronNet" />
+    <dependencies>
+      <group targetFramework="net5.0">
+        <dependency id="Google.Api.CommonProtos" version="1.7.0" exclude="Build,Analyzers" />
+        <dependency id="Google.Protobuf" version="3.13.0" exclude="Build,Analyzers" />
+        <dependency id="Google.Protobuf.Tools" version="3.11.2" exclude="Build,Analyzers" />
+        <dependency id="Grpc" version="2.26.0" exclude="Build,Analyzers" />
+        <dependency id="Grpc.Net.ClientFactory" version="2.32.0" exclude="Build,Analyzers" />
+        <dependency id="NBitcoin.Secp256k1" version="1.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\Milad\Desktop\TronNetCore3.1-master\src\TronNet.Protocol\bin\Debug\net5.0\TronDotNet.Protocol.dll" target="lib\net5.0\TronDotNet.Protocol.dll" />
+  </files>
+</package>

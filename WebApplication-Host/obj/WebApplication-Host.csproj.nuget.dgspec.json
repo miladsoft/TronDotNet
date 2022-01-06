@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Github\\TronNetCore5\\WebApplication-Host\\WebApplication-Host.csproj": {}
+    "d:\\Github\\TronDotNet\\WebApplication-Host\\WebApplication-Host.csproj": {}
   },
   "projects": {
-    "D:\\Github\\TronNetCore5\\src\\TronDotNetCore.ABI\\TronDotNetCore.ABI.csproj": {
+    "d:\\Github\\TronDotNet\\src\\TronDotNet.ABI\\TronDotNet.ABI.csproj": {
       "version": "0.5.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\TronNetCore5\\src\\TronDotNetCore.ABI\\TronDotNetCore.ABI.csproj",
-        "projectName": "TronDotNetCore.ABI",
-        "projectPath": "D:\\Github\\TronNetCore5\\src\\TronDotNetCore.ABI\\TronDotNetCore.ABI.csproj",
+        "projectUniqueName": "d:\\Github\\TronDotNet\\src\\TronDotNet.ABI\\TronDotNet.ABI.csproj",
+        "projectName": "TronDotNet.ABI",
+        "projectPath": "d:\\Github\\TronDotNet\\src\\TronDotNet.ABI\\TronDotNet.ABI.csproj",
         "packagesPath": "C:\\Users\\Milad\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\TronNetCore5\\src\\TronDotNetCore.ABI\\obj\\",
+        "outputPath": "d:\\Github\\TronDotNet\\src\\TronDotNet.ABI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -25,18 +25,18 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Github\\TronNetCore5\\src\\TronDotNetCore.Crypto\\TronDotNetCore.Crypto.csproj": {
-                "projectPath": "D:\\Github\\TronNetCore5\\src\\TronDotNetCore.Crypto\\TronDotNetCore.Crypto.csproj"
+              "d:\\Github\\TronDotNet\\src\\TronDotNet.Crypto\\TronDotNet.Crypto.csproj": {
+                "projectPath": "d:\\Github\\TronDotNet\\src\\TronDotNet.Crypto\\TronDotNet.Crypto.csproj"
               }
             }
           }
@@ -48,8 +48,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -69,14 +69,14 @@
         }
       }
     },
-    "D:\\Github\\TronNetCore5\\src\\TronDotNetCore.Crypto\\TronDotNetCore.Crypto.csproj": {
+    "d:\\Github\\TronDotNet\\src\\TronDotNet.Crypto\\TronDotNet.Crypto.csproj": {
       "version": "0.5.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\TronNetCore5\\src\\TronDotNetCore.Crypto\\TronDotNetCore.Crypto.csproj",
-        "projectName": "TronDotNetCore.Crypto",
-        "projectPath": "D:\\Github\\TronNetCore5\\src\\TronDotNetCore.Crypto\\TronDotNetCore.Crypto.csproj",
+        "projectUniqueName": "d:\\Github\\TronDotNet\\src\\TronDotNet.Crypto\\TronDotNet.Crypto.csproj",
+        "projectName": "TronDotNet.Crypto",
+        "projectPath": "d:\\Github\\TronDotNet\\src\\TronDotNet.Crypto\\TronDotNet.Crypto.csproj",
         "packagesPath": "C:\\Users\\Milad\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\TronNetCore5\\src\\TronDotNetCore.Crypto\\obj\\",
+        "outputPath": "d:\\Github\\TronDotNet\\src\\TronDotNet.Crypto\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -90,15 +90,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -109,8 +109,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Google.Api.CommonProtos": {
               "target": "Package",
@@ -152,14 +152,14 @@
         }
       }
     },
-    "D:\\Github\\TronNetCore5\\src\\TronDotNetCore.Protocol\\TronDotNetCore.Protocol.csproj": {
+    "d:\\Github\\TronDotNet\\src\\TronDotNet.Protocol\\TronDotNet.Protocol.csproj": {
       "version": "0.5.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\TronNetCore5\\src\\TronDotNetCore.Protocol\\TronDotNetCore.Protocol.csproj",
-        "projectName": "TronDotNetCore.Protocol",
-        "projectPath": "D:\\Github\\TronNetCore5\\src\\TronDotNetCore.Protocol\\TronDotNetCore.Protocol.csproj",
+        "projectUniqueName": "d:\\Github\\TronDotNet\\src\\TronDotNet.Protocol\\TronDotNet.Protocol.csproj",
+        "projectName": "TronDotNet.Protocol",
+        "projectPath": "d:\\Github\\TronDotNet\\src\\TronDotNet.Protocol\\TronDotNet.Protocol.csproj",
         "packagesPath": "C:\\Users\\Milad\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\TronNetCore5\\src\\TronDotNetCore.Protocol\\obj\\",
+        "outputPath": "d:\\Github\\TronDotNet\\src\\TronDotNet.Protocol\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -173,15 +173,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -192,8 +192,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Google.Api.CommonProtos": {
               "target": "Package",
@@ -245,14 +245,14 @@
         }
       }
     },
-    "D:\\Github\\TronNetCore5\\src\\TronDotNetCore\\TronDotNetCore.csproj": {
+    "d:\\Github\\TronDotNet\\src\\TronDotNet\\TronDotNet.csproj": {
       "version": "0.5.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\TronNetCore5\\src\\TronDotNetCore\\TronDotNetCore.csproj",
-        "projectName": "TronDotNetCore",
-        "projectPath": "D:\\Github\\TronNetCore5\\src\\TronDotNetCore\\TronDotNetCore.csproj",
+        "projectUniqueName": "d:\\Github\\TronDotNet\\src\\TronDotNet\\TronDotNet.csproj",
+        "projectName": "TronDotNet",
+        "projectPath": "d:\\Github\\TronDotNet\\src\\TronDotNet\\TronDotNet.csproj",
         "packagesPath": "C:\\Users\\Milad\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\TronNetCore5\\src\\TronDotNetCore\\obj\\",
+        "outputPath": "d:\\Github\\TronDotNet\\src\\TronDotNet\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -266,24 +266,24 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Github\\TronNetCore5\\src\\TronDotNetCore.ABI\\TronDotNetCore.ABI.csproj": {
-                "projectPath": "D:\\Github\\TronNetCore5\\src\\TronDotNetCore.ABI\\TronDotNetCore.ABI.csproj"
+              "d:\\Github\\TronDotNet\\src\\TronDotNet.ABI\\TronDotNet.ABI.csproj": {
+                "projectPath": "d:\\Github\\TronDotNet\\src\\TronDotNet.ABI\\TronDotNet.ABI.csproj"
               },
-              "D:\\Github\\TronNetCore5\\src\\TronDotNetCore.Crypto\\TronDotNetCore.Crypto.csproj": {
-                "projectPath": "D:\\Github\\TronNetCore5\\src\\TronDotNetCore.Crypto\\TronDotNetCore.Crypto.csproj"
+              "d:\\Github\\TronDotNet\\src\\TronDotNet.Crypto\\TronDotNet.Crypto.csproj": {
+                "projectPath": "d:\\Github\\TronDotNet\\src\\TronDotNet.Crypto\\TronDotNet.Crypto.csproj"
               },
-              "D:\\Github\\TronNetCore5\\src\\TronDotNetCore.Protocol\\TronDotNetCore.Protocol.csproj": {
-                "projectPath": "D:\\Github\\TronNetCore5\\src\\TronDotNetCore.Protocol\\TronDotNetCore.Protocol.csproj"
+              "d:\\Github\\TronDotNet\\src\\TronDotNet.Protocol\\TronDotNet.Protocol.csproj": {
+                "projectPath": "d:\\Github\\TronDotNet\\src\\TronDotNet.Protocol\\TronDotNet.Protocol.csproj"
               }
             }
           }
@@ -295,8 +295,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "imports": [
             "net461",
             "net462",
@@ -316,14 +316,14 @@
         }
       }
     },
-    "D:\\Github\\TronNetCore5\\WebApplication-Host\\WebApplication-Host.csproj": {
+    "d:\\Github\\TronDotNet\\WebApplication-Host\\WebApplication-Host.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Github\\TronNetCore5\\WebApplication-Host\\WebApplication-Host.csproj",
+        "projectUniqueName": "d:\\Github\\TronDotNet\\WebApplication-Host\\WebApplication-Host.csproj",
         "projectName": "WebApplication-Host",
-        "projectPath": "D:\\Github\\TronNetCore5\\WebApplication-Host\\WebApplication-Host.csproj",
+        "projectPath": "d:\\Github\\TronDotNet\\WebApplication-Host\\WebApplication-Host.csproj",
         "packagesPath": "C:\\Users\\Milad\\.nuget\\packages\\",
-        "outputPath": "D:\\Github\\TronNetCore5\\WebApplication-Host\\obj\\",
+        "outputPath": "d:\\Github\\TronDotNet\\WebApplication-Host\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -337,18 +337,18 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Github\\TronNetCore5\\src\\TronDotNetCore\\TronDotNetCore.csproj": {
-                "projectPath": "D:\\Github\\TronNetCore5\\src\\TronDotNetCore\\TronDotNetCore.csproj"
+              "d:\\Github\\TronDotNet\\src\\TronDotNet\\TronDotNet.csproj": {
+                "projectPath": "d:\\Github\\TronDotNet\\src\\TronDotNet\\TronDotNet.csproj"
               }
             }
           }
@@ -360,8 +360,8 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "RestSharp": {
               "target": "Package",

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>TronDotNet.Crypto</id>
+    <version>0.5.0</version>
+    <authors>Miladsoft</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <projectUrl>https://github.com/miladsoft/TronNet</projectUrl>
+    <description>TronNet.Crypto</description>
+    <releaseNotes>Release notes are at https://github.com/miladsoft/TronNet/releases</releaseNotes>
+    <tags>tron, tron protocol, tron grpc</tags>
+    <repository url="https://github.com/miladsoft/TronNet" />
+    <dependencies>
+      <group targetFramework="net6.0">
+        <dependency id="Google.Api.CommonProtos" version="1.7.0" exclude="Build,Analyzers" />
+        <dependency id="Google.Protobuf" version="3.13.0" exclude="Build,Analyzers" />
+        <dependency id="Google.Protobuf.Tools" version="3.11.2" exclude="Build,Analyzers" />
+        <dependency id="NBitcoin.Secp256k1" version="1.0.3" exclude="Build,Analyzers" />
+        <dependency id="Portable.BouncyCastle" version="1.8.5.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\Github\TronDotNet\src\TronDotNet.Crypto\bin\Debug\net6.0\TronDotNet.Crypto.dll" target="lib\net6.0\TronDotNet.Crypto.dll" />
+  </files>
+</package>

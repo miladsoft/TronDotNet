@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
+    "net6.0": {
       "Google.Api.CommonProtos/1.7.0": {
         "type": "package",
         "dependencies": {
@@ -303,37 +303,37 @@
           "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
       },
-      "TronDotNetCore/0.5.0": {
+      "TronDotNet/0.5.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "TronDotNetCore.ABI": "0.5.0",
-          "TronDotNetCore.Crypto": "0.5.0",
-          "TronDotNetCore.Protocol": "0.5.0"
+          "TronDotNet.ABI": "0.5.0",
+          "TronDotNet.Crypto": "0.5.0",
+          "TronDotNet.Protocol": "0.5.0"
         },
         "compile": {
-          "bin/placeholder/TronDotNetCore.dll": {}
+          "bin/placeholder/TronDotNet.dll": {}
         },
         "runtime": {
-          "bin/placeholder/TronDotNetCore.dll": {}
+          "bin/placeholder/TronDotNet.dll": {}
         }
       },
-      "TronDotNetCore.ABI/0.5.0": {
+      "TronDotNet.ABI/0.5.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "TronDotNetCore.Crypto": "0.5.0"
+          "TronDotNet.Crypto": "0.5.0"
         },
         "compile": {
-          "bin/placeholder/TronDotNetCore.ABI.dll": {}
+          "bin/placeholder/TronDotNet.ABI.dll": {}
         },
         "runtime": {
-          "bin/placeholder/TronDotNetCore.ABI.dll": {}
+          "bin/placeholder/TronDotNet.ABI.dll": {}
         }
       },
-      "TronDotNetCore.Crypto/0.5.0": {
+      "TronDotNet.Crypto/0.5.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Google.Api.CommonProtos": "1.7.0",
           "Google.Protobuf": "3.13.0",
@@ -342,15 +342,15 @@
           "Portable.BouncyCastle": "1.8.5.2"
         },
         "compile": {
-          "bin/placeholder/TronDotNetCore.Crypto.dll": {}
+          "bin/placeholder/TronDotNet.Crypto.dll": {}
         },
         "runtime": {
-          "bin/placeholder/TronDotNetCore.Crypto.dll": {}
+          "bin/placeholder/TronDotNet.Crypto.dll": {}
         }
       },
-      "TronDotNetCore.Protocol/0.5.0": {
+      "TronDotNet.Protocol/0.5.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
+        "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Google.Api.CommonProtos": "1.7.0",
           "Google.Protobuf": "3.13.0",
@@ -360,10 +360,10 @@
           "NBitcoin.Secp256k1": "1.0.3"
         },
         "compile": {
-          "bin/placeholder/TronDotNetCore.Protocol.dll": {}
+          "bin/placeholder/TronDotNet.Protocol.dll": {}
         },
         "runtime": {
-          "bin/placeholder/TronDotNetCore.Protocol.dll": {}
+          "bin/placeholder/TronDotNet.Protocol.dll": {}
         }
       }
     }
@@ -834,31 +834,31 @@
         "version.txt"
       ]
     },
-    "TronDotNetCore/0.5.0": {
+    "TronDotNet/0.5.0": {
       "type": "project",
-      "path": "../src/TronDotNetCore/TronDotNetCore.csproj",
-      "msbuildProject": "../src/TronDotNetCore/TronDotNetCore.csproj"
+      "path": "../src/TronDotNet/TronDotNet.csproj",
+      "msbuildProject": "../src/TronDotNet/TronDotNet.csproj"
     },
-    "TronDotNetCore.ABI/0.5.0": {
+    "TronDotNet.ABI/0.5.0": {
       "type": "project",
-      "path": "../src/TronDotNetCore.ABI/TronDotNetCore.ABI.csproj",
-      "msbuildProject": "../src/TronDotNetCore.ABI/TronDotNetCore.ABI.csproj"
+      "path": "../src/TronDotNet.ABI/TronDotNet.ABI.csproj",
+      "msbuildProject": "../src/TronDotNet.ABI/TronDotNet.ABI.csproj"
     },
-    "TronDotNetCore.Crypto/0.5.0": {
+    "TronDotNet.Crypto/0.5.0": {
       "type": "project",
-      "path": "../src/TronDotNetCore.Crypto/TronDotNetCore.Crypto.csproj",
-      "msbuildProject": "../src/TronDotNetCore.Crypto/TronDotNetCore.Crypto.csproj"
+      "path": "../src/TronDotNet.Crypto/TronDotNet.Crypto.csproj",
+      "msbuildProject": "../src/TronDotNet.Crypto/TronDotNet.Crypto.csproj"
     },
-    "TronDotNetCore.Protocol/0.5.0": {
+    "TronDotNet.Protocol/0.5.0": {
       "type": "project",
-      "path": "../src/TronDotNetCore.Protocol/TronDotNetCore.Protocol.csproj",
-      "msbuildProject": "../src/TronDotNetCore.Protocol/TronDotNetCore.Protocol.csproj"
+      "path": "../src/TronDotNet.Protocol/TronDotNet.Protocol.csproj",
+      "msbuildProject": "../src/TronDotNet.Protocol/TronDotNet.Protocol.csproj"
     }
   },
   "projectFileDependencyGroups": {
-    "net5.0": [
+    "net6.0": [
       "RestSharp >= 106.15.0",
-      "TronDotNetCore >= 0.5.0"
+      "TronDotNet >= 0.5.0"
     ]
   },
   "packageFolders": {
@@ -870,11 +870,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Github\\TronNetCore5\\WebApplication-Host\\WebApplication-Host.csproj",
+      "projectUniqueName": "d:\\Github\\TronDotNet\\WebApplication-Host\\WebApplication-Host.csproj",
       "projectName": "WebApplication-Host",
-      "projectPath": "D:\\Github\\TronNetCore5\\WebApplication-Host\\WebApplication-Host.csproj",
+      "projectPath": "d:\\Github\\TronDotNet\\WebApplication-Host\\WebApplication-Host.csproj",
       "packagesPath": "C:\\Users\\Milad\\.nuget\\packages\\",
-      "outputPath": "D:\\Github\\TronNetCore5\\WebApplication-Host\\obj\\",
+      "outputPath": "d:\\Github\\TronDotNet\\WebApplication-Host\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -888,18 +888,18 @@
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net5.0"
+        "net6.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Github\\TronNetCore5\\src\\TronDotNetCore\\TronDotNetCore.csproj": {
-              "projectPath": "D:\\Github\\TronNetCore5\\src\\TronDotNetCore\\TronDotNetCore.csproj"
+            "d:\\Github\\TronDotNet\\src\\TronDotNet\\TronDotNet.csproj": {
+              "projectPath": "d:\\Github\\TronDotNet\\src\\TronDotNet\\TronDotNet.csproj"
             }
           }
         }
@@ -911,8 +911,8 @@
       }
     },
     "frameworks": {
-      "net5.0": {
-        "targetAlias": "net5.0",
+      "net6.0": {
+        "targetAlias": "net6.0",
         "dependencies": {
           "RestSharp": {
             "target": "Package",
