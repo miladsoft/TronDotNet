@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30804.86
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TronDotNet.Protocol", "src\TronDotNet.Protocol\TronDotNet.Protocol.csproj", "{2787BE3F-B61E-439C-9CFC-A3E2D3D99489}"
 EndProject
@@ -15,7 +15,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{52F5F682-1C4
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestTronDotNet", "TestTronDotNet\TestTronDotNet.csproj", "{6562BC49-ADC0-4DC4-B059-6CD71E26D523}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication-Host", "WebApplication-Host\WebApplication-Host.csproj", "{109BF967-6B95-4B6E-8409-0CF9393F9C90}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication-Host", "WebApplication-Host\WebApplication-Host.csproj", "{109BF967-6B95-4B6E-8409-0CF9393F9C90}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

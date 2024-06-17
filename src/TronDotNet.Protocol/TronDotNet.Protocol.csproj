@@ -38,17 +38,17 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Google.Api.CommonProtos" Version="1.7.0" />
-		<PackageReference Include="Google.Protobuf" Version="3.13.0" />
-		<PackageReference Include="Google.Protobuf.Tools" Version="3.11.2" />
-		<PackageReference Include="Grpc" Version="2.26.0" />
-		<PackageReference Include="Grpc.Net.ClientFactory" Version="2.32.0" />
-		<PackageReference Include="Grpc.Tools" Version="2.32.0">
+		<PackageReference Include="Google.Api.CommonProtos" Version="2.15.0" />
+		<PackageReference Include="Google.Protobuf" Version="3.27.1" />
+		<PackageReference Include="Google.Protobuf.Tools" Version="3.27.1" />
+		<PackageReference Include="Grpc" Version="2.46.6" />
+		<PackageReference Include="Grpc.Net.ClientFactory" Version="2.63.0" />
+		<PackageReference Include="Grpc.Tools" Version="2.64.0">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
 		</PackageReference>
 		<PackageReference Include="NBitcoin.Secp256k1">
-			<Version>1.0.3</Version>
+			<Version>3.1.5</Version>
 		</PackageReference>
 	</ItemGroup>
 
