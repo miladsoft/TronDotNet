@@ -34,6 +34,10 @@ namespace WebApplication_Host
                 x.ApiKey = "e06b3c05-f11b-4221-a60c-705b5570b7fc"; //https://www.trongrid.io/
             });
             services.AddLogging();
+            services.AddAntiforgery(options =>
+            {
+                options.HeaderName = "X-CSRF-TOKEN";
+            });
 
         }
 

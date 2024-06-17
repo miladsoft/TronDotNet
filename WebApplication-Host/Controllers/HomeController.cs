@@ -1,12 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-using RestSharp;
-using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
+using System;
 using System.Threading.Tasks;
 using TronDotNet;
 using TronDotNet.Contracts;
@@ -17,61 +12,60 @@ namespace WebApplication_Host.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly ITronClient _tron;
         private readonly IWalletClient _wallet;
         private readonly IContractClientFactory _contract;
-        public HomeController(ILogger<HomeController> logger, IWalletClient wallet, IContractClientFactory contract, ITronClient tron)
+
+        public HomeController(ILogger<HomeController> logger, IWalletClient wallet, IContractClientFactory contract)
         {
             _logger = logger;
             _wallet = wallet;
             _contract = contract;
-            _tron = tron;
         }
 
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
-
-
-            var client = new RestClient("https://api.trongrid.io/v1/accounts/TFyxcPwmSrpXLt7hWbBbdpNbhQBHxa43au/transactions/trc20?contract_address=TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t");
-
-            var request = new RestRequest(Method.GET);
-
-            request.AddHeader("Accept", "application/json");
-
-            IRestResponse response = client.Execute(request);
-
-
-
-
-
-
-
-
-
             var key = TronECKey.GenerateKey(TronNetwork.MainNet);
 
             var address = key.GetPublicAddress();
-
             var privatekey = key.GetPrivateKey();
-
             var publickey = key.GetPublicAddress();
+
             ViewData["address"] = address;
             ViewData["privatekey"] = privatekey;
             ViewData["publickey"] = publickey;
 
-            #region If you want to get the balance of trc-20 tokens, write your code below
             var account = _wallet.GetAccount(privatekey);
-            //USDT TOKEN
             var contractAddress = "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t";
             var contractClient = _contract.CreateClient(ContractProtocol.TRC20);
-            //USDT Balance
-            var balance = contractClient.BalanceOfAsync(contractAddress, account).Result;
+            var balance = await contractClient.BalanceOfAsync(contractAddress, account);
 
             ViewData["balance"] = balance;
-            #endregion
-
 
             return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> GenerateAddress()
+        {
+            try
+            {
+                var key = TronECKey.GenerateKey(TronNetwork.MainNet);
+                var address = key.GetPublicAddress();
+                var privatekey = key.GetPrivateKey();
+                var publickey = key.GetPublicAddress();
+
+                var account = _wallet.GetAccount(privatekey);
+                var contractAddress = "TR7NHqjeKQxGTCi8q8ZY4pL8otSzgjLj6t";
+                var contractClient = _contract.CreateClient(ContractProtocol.TRC20);
+                var balance = await contractClient.BalanceOfAsync(contractAddress, account);
+
+                return Json(new { success = true, address, privatekey, publickey, balance });
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError(ex, "Error generating address and checking balance.");
+                return Json(new { success = false });
+            }
         }
 
         public IActionResult Privacy()

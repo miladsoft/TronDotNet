@@ -5,20 +5,55 @@
     var privatekey = ViewData["privatekey"];
     var publickey = ViewData["publickey"];
     var balance = ViewData["Balance"];
-
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome to Tron DotNetCore</h1>
-    <hr>
-    <p> address : </p>
-    <p class="text-danger">@address</p>
-    <p> privatekey : </p>
-    <p class="text-danger">@privatekey</p>
-    <p> publickey : </p>
-    <p class="text-danger">@publickey</p>
-    <hr>
-    <p>USDT TRC-20 balance : </p>
-    <p class="text-success">@balance</p>
-
+<div class="container mt-5">
+    <div class="text-center">
+        <h1 class="display-4 mb-4">Welcome to Tron DotNetCore</h1>
+        <hr class="my-4">
+        <div class="card text-start shadow-sm">
+            <div class="card-header bg-primary text-white">
+                Wallet Information
+            </div>
+            <div class="card-body bg-warning">
+                <p class="card-text"><strong>Address:</strong> <span class="text-danger">@address</span></p>
+                <p class="card-text"><strong>Private Key:</strong> <span class="text-danger">@privatekey</span></p>
+                <p class="card-text"><strong>Public Key:</strong> <span class="text-danger">@publickey</span></p>
+                <hr>
+                <p class="card-text"><strong>USDT TRC-20 Balance:</strong> <span class="text-success">@balance</span></p>
+                <button id="generate-address-btn" class="btn btn-outline-primary mt-3">Generate New Address & Check Balance</button>
+            </div>
+        </div>
+    </div>
 </div>
+
+@section Scripts {
+    <script>
+        document.getElementById('generate-address-btn').addEventListener('click', function (event) {
+            event.preventDefault();
+            fetch('@Url.Action("GenerateAddress", "Home")', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success) {
+                        location.reload();
+                    } else {
+                        alert('Error generating address and checking balance.');
+                    }
+                })
+                .catch(error => console.error('Error:', error));
+        });
+
+        // Apply dark or light theme based on localStorage
+        document.addEventListener('DOMContentLoaded', function () {
+            const currentTheme = localStorage.getItem('theme');
+            if (currentTheme === 'dark') {
+                document.body.classList.add('dark-mode');
+            }
+        });
+    </script>
+}

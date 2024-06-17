@@ -1,71 +1,240 @@
-﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-for details on configuring this project to bundle and minify static web assets. */
-
-a.navbar-brand {
-  white-space: normal;
-  text-align: center;
-  word-break: break-all;
-}
-
-/* Provide sufficient contrast against white background */
-a {
-  color: #0366d6;
-}
-
-.btn-primary {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
-
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-  color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
-}
-
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  font-size: 14px;
-}
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-.border-top {
-  border-top: 1px solid #e5e5e5;
-}
-.border-bottom {
-  border-bottom: 1px solid #e5e5e5;
-}
-
-.box-shadow {
-  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
-}
-
-button.accept-policy {
-  font-size: 1rem;
-  line-height: inherit;
-}
-
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
-}
-
+﻿/* General Styles */
 body {
-  /* Margin bottom by footer height */
-  margin-bottom: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    margin-bottom: 60px;
+    transition: background-color 0.3s, color 0.3s;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 60px; /* Footer height */
 }
+
+a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+    a:hover {
+        color: var(--link-hover-color);
+        text-decoration: underline;
+    }
+
+.container {
+    max-width: 1140px;
+}
+
+/* Navbar Styles */
+.navbar {
+    padding: 1rem 1rem;
+    background-color: var(--navbar-background-color);
+    border-bottom: 1px solid var(--navbar-border-color);
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--brand-color);
+}
+
+    .navbar-brand:hover {
+        color: var(--brand-hover-color);
+    }
+
+.navbar-nav .nav-item .nav-link {
+    color: var(--nav-link-color);
+    padding: 0.5rem 1rem;
+    transition: color 0.3s, border-color 0.3s;
+}
+
+    .navbar-nav .nav-item .nav-link.active {
+        color: var(--nav-link-active-color);
+        font-weight: bold;
+        border-bottom: 2px solid var(--nav-link-active-border-color);
+    }
+
+.navbar-toggler {
+    border: none;
+    outline: none;
+}
+
+.navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=utf8,%3Csvg viewBox="0 0 30 30" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath stroke="rgba%2855, 55, 55, 0.5%29" stroke-width="2" linecap="round" linejoin="round" d="M4 7h22M4 15h22M4 23h22"%3E%3C/path%3E%3C/svg%3E');
+}
+
+/* Theme Switch Button */
+.theme-switch-btn {
+    background-color: var(--btn-primary-bg-color);
+    color: var(--btn-primary-text-color);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+    .theme-switch-btn:hover {
+        background-color: var(--btn-primary-hover-bg-color);
+        color: var(--btn-primary-hover-text-color);
+    }
+
+/* Footer Styles */
 .footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  white-space: nowrap;
-  line-height: 60px; /* Vertically center the text there */
+    background-color: var(--footer-background-color);
+    padding: 1rem 0;
+    text-align: center;
+    border-top: 1px solid var(--footer-border-color);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+    .footer .text-muted {
+        color: var(--footer-text-color) !important;
+    }
+
+/* Button Styles */
+.btn-primary {
+    color: var(--btn-primary-text-color);
+    background-color: var(--btn-primary-bg-color);
+    border-color: var(--btn-primary-border-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+    .btn-primary:hover {
+        background-color: var(--btn-primary-hover-bg-color);
+        border-color: var(--btn-primary-hover-border-color);
+        color: var(--btn-primary-hover-text-color);
+    }
+
+/* Form Styles */
+.form-control {
+    border-radius: 0.25rem;
+    border: 1px solid var(--form-control-border-color);
+    transition: border-color 0.3s ease;
+}
+
+    .form-control:focus {
+        border-color: var(--form-control-focus-border-color);
+        box-shadow: 0 0 0 0.2rem var(--form-control-focus-shadow-color);
+    }
+
+.btn-outline-success {
+    color: var(--btn-outline-success-text-color);
+    border-color: var(--btn-outline-success-border-color);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+    .btn-outline-success:hover {
+        background-color: var(--btn-outline-success-hover-bg-color);
+        color: var(--btn-outline-success-hover-text-color);
+        border-color: var(--btn-outline-success-hover-border-color);
+    }
+
+/* Utility Classes */
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075) !important;
+}
+
+/* Scrollbar Styles */
+body::-webkit-scrollbar {
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    background: var(--scrollbar-track-color);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-thumb-color);
+    border-radius: 20px;
+    border: 3px solid var(--scrollbar-track-color);
+}
+
+    body::-webkit-scrollbar-thumb:hover {
+        background-color: var(--scrollbar-thumb-hover-color);
+    }
+
+/* Media Queries */
+@media (max-width: 576px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-collapse {
+        flex-grow: 0;
+    }
+}
+
+/* Light Theme */
+:root {
+    --background-color: #f8f9fa;
+    --text-color: #212529;
+    --link-color: #007bff;
+    --link-hover-color: #0056b3;
+    --brand-color: #007bff;
+    --brand-hover-color: #0056b3;
+    --navbar-background-color: #ffffff;
+    --navbar-border-color: #e5e5e5;
+    --nav-link-color: #343a40;
+    --nav-link-active-color: #007bff;
+    --nav-link-active-border-color: #007bff;
+    --footer-background-color: #f8f9fa;
+    --footer-border-color: #e5e5e5;
+    --footer-text-color: #6c757d;
+    --btn-primary-text-color: #fff;
+    --btn-primary-bg-color: #007bff;
+    --btn-primary-border-color: #007bff;
+    --btn-primary-hover-bg-color: #0056b3;
+    --btn-primary-hover-border-color: #004085;
+    --btn-primary-hover-text-color: #fff;
+    --form-control-border-color: #ced4da;
+    --form-control-focus-border-color: #007bff;
+    --form-control-focus-shadow-color: rgba(0, 123, 255, 0.25);
+    --btn-outline-success-text-color: #007bff;
+    --btn-outline-success-border-color: #007bff;
+    --btn-outline-success-hover-bg-color: #007bff;
+    --btn-outline-success-hover-text-color: #fff;
+    --btn-outline-success-hover-border-color: #0056b3;
+    --scrollbar-track-color: #f1f1f1;
+    --scrollbar-thumb-color: #888;
+    --scrollbar-thumb-hover-color: #555;
+}
+
+/* Dark Theme */
+body.dark-mode {
+    --background-color: #212529;
+    --text-color: #f8f9fa;
+    --link-color: #61dafb;
+    --link-hover-color: #21a1f1;
+    --brand-color: #61dafb;
+    --brand-hover-color: #21a1f1;
+    --navbar-background-color: #343a40;
+    --navbar-border-color: #444;
+    --nav-link-color: #f8f9fa;
+    --nav-link-active-color: #61dafb;
+    --nav-link-active-border-color: #61dafb;
+    --footer-background-color: #343a40;
+    --footer-border-color: #444;
+    --footer-text-color: #aaa;
+    --btn-primary-text-color: #212529;
+    --btn-primary-bg-color: #61dafb;
+    --btn-primary-border-color: #21a1f1;
+    --btn-primary-hover-bg-color: #21a1f1;
+    --btn-primary-hover-border-color: #1a91da;
+    --btn-primary-hover-text-color: #212529;
+    --form-control-border-color: #444;
+    --form-control-focus-border-color: #61dafb;
+    --form-control-focus-shadow-color: rgba(97, 218, 251, 0.25);
+    --btn-outline-success-text-color: #61dafb;
+    --btn-outline-success-border-color: #61dafb;
+    --btn-outline-success-hover-bg-color: #21a1f1;
+    --btn-outline-success-hover-text-color: #212529;
+    --btn-outline-success-hover-border-color: #1a91da;
+    --scrollbar-track-color: #2e2e2e;
+    --scrollbar-thumb-color: #555;
+    --scrollbar-thumb-hover-color: #777;
 }
